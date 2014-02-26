@@ -7,13 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LetraBViewController.h"
+
+#import "Singleton.h"
+#import "Dicionario.h"
 
 @interface LetrasViewController : UIViewController
+{
+    NSMutableArray *letras;
+    NSInteger indiceObj ;
+    Singleton *allWords;
+    NSString *title;
+    Dicionario *wordDic ;
+}
 
 
 -(IBAction)next:(id)sender;
 
--(NSString *)setTitle;
+//-(NSString *)setTitle;
 
+-(id)initWithLetra:(NSMutableArray *)dic;
 @end

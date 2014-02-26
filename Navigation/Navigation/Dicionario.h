@@ -11,11 +11,12 @@
 @interface Dicionario : NSObject
 {
     NSMutableArray *dicionario;
-    NSString *letra;
-    
+//    NSString *letra;
+//    
 }
-@property NSString *letra;
+
+//@property NSString *letra;
 -(id)initWithLetra:(NSString *)letra andImagem:(NSString *)imag;
-//-(NSMutableArray *)dicionarioCompleto;
+-(NSMutableArray *)dicionarioCompleto;
 
 @end

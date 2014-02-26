@@ -19,6 +19,6 @@
 
 +(Singleton *) dicionarioStore;
 +(id)allocWithZone:(struct _NSZone *)zone;
--(NSArray *)retornarLetras;
+-(NSMutableArray *)retornarLetras;
 
 @end

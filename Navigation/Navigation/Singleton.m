@@ -58,7 +58,7 @@
         [dictionary addObject:[[Dicionario alloc]initWithLetra:@"R" andImagem:@"rhynocerous.jpg"]];
         [dictionary addObject:[[Dicionario alloc]initWithLetra:@"S" andImagem:@"stork.jpg"]];
         [dictionary addObject:[[Dicionario alloc]initWithLetra:@"T" andImagem:@"tiger.jpg"]];
-        [dictionary addObject:[[Dicionario alloc]initWithLetra:@"U" andImagem:@".jpg"]];
+        [dictionary addObject:[[Dicionario alloc]initWithLetra:@"U" andImagem:@"U.jpg"]];
         [dictionary addObject:[[Dicionario alloc]initWithLetra:@"V" andImagem:@"abacaxi.jpg"]];
         [dictionary addObject:[[Dicionario alloc]initWithLetra:@"X" andImagem:@"abacaxi.jpg"]];
         [dictionary addObject:[[Dicionario alloc]initWithLetra:@"W" andImagem:@"wolf.jpg"]];
@@ -68,7 +68,7 @@
     return self;
 }
 
--(NSArray *)retornarLetras{
+-(NSMutableArray *)retornarLetras{
     return dictionary;
     
 }
