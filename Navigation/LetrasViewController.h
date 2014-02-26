@@ -23,7 +23,7 @@
 
 -(IBAction)next:(id)sender;
 
-//-(NSString *)setTitle;
+
 
 -(id)initWithLetra:(NSMutableArray *)dic;
 @end

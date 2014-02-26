@@ -101,25 +101,6 @@
    
 }
 
-//-(NSString *)setTitle
-//{
-//    for (int i = 0; i < 2; i++) {
-//        
-//        if(i == 0){
-//        NSString *nome = @"B";
-//        return nome;
-//        }else if (i == 1)
-//        {
-//            NSString *nome = @"C";
-//            return nome;
-//        }else{
-//            NSString *nome = @"D";
-//            return nome;
-//        }
-//    }
-//    
-//    return nil;
-//    
-//}
+
 
 @end
