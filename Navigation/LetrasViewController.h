@@ -10,14 +10,18 @@
 
 #import "Singleton.h"
 #import "Dicionario.h"
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface LetrasViewController : UIViewController
 {
     NSMutableArray *letras;
-    NSInteger indiceObj ;
+    
     Singleton *allWords;
     NSString *title;
     Dicionario *wordDic ;
+    
+    NSString *imagemAni;
 }
 
 

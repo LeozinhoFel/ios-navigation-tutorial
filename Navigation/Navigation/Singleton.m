@@ -38,7 +38,7 @@
     self = [super init];
     if (self) {
         dictionary = [[NSMutableArray alloc]init];
-        [dictionary addObject:[[Dicionario alloc]initWithLetra:@"A" andImagem:@"alligator.jpg"]];
+        [dictionary addObject:[[Dicionario alloc]initWithLetra:@"A" andImagem:@"alligator.jpeg"]];
         [dictionary addObject:[[Dicionario alloc]initWithLetra:@"B" andImagem:@"bear.jpg"]];
         [dictionary addObject:[[Dicionario alloc]initWithLetra:@"C" andImagem:@"crab.jpg"]];
         [dictionary addObject:[[Dicionario alloc]initWithLetra:@"D" andImagem:@"dolphin.jpg"]];
