@@ -26,6 +26,16 @@
 		8759CB4918BD355F00E1FDB0 /* LetrasViewController in Resources */ = {isa = PBXBuildFile; fileRef = 8759CB4818BD355F00E1FDB0 /* LetrasViewController */; };
 		8759CB4B18BE68E900E1FDB0 /* alligator.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8759CB4A18BE68E900E1FDB0 /* alligator.jpeg */; };
 		8759CB4D18BE6AA600E1FDB0 /* bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8759CB4C18BE6AA600E1FDB0 /* bear.jpg */; };
+		8759CB4F18C0F92F00E1FDB0 /* 10365.png in Resources */ = {isa = PBXBuildFile; fileRef = 8759CB4E18C0F92F00E1FDB0 /* 10365.png */; };
+		8759CB5118C1052900E1FDB0 /* crab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8759CB5018C1052900E1FDB0 /* crab.jpg */; };
+		8759CB5318C1056200E1FDB0 /* dolphin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8759CB5218C1056200E1FDB0 /* dolphin.jpg */; };
+		8759CB5518C105A700E1FDB0 /* fox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8759CB5418C105A700E1FDB0 /* fox.jpg */; };
+		8759CB5718C1060100E1FDB0 /* eagle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8759CB5618C1060100E1FDB0 /* eagle.jpg */; };
+		8759CB5918C106BA00E1FDB0 /* goat.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 8759CB5818C106BA00E1FDB0 /* goat.bmp */; };
+		8759CB5B18C1070A00E1FDB0 /* hyena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8759CB5A18C1070A00E1FDB0 /* hyena.jpg */; };
+		8759CB5D18C107CF00E1FDB0 /* jaguar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8759CB5C18C107CF00E1FDB0 /* jaguar.jpg */; };
+		8759CB5F18C108B100E1FDB0 /* kangoroo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8759CB5E18C108B100E1FDB0 /* kangoroo.jpg */; };
+		8759CB6118C108E900E1FDB0 /* iguana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8759CB6018C108E900E1FDB0 /* iguana.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +75,16 @@
 		8759CB4818BD355F00E1FDB0 /* LetrasViewController */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LetrasViewController; path = ../../../../Users/leonardofelipedasilva/Desktop/LetrasViewController; sourceTree = "<group>"; };
 		8759CB4A18BE68E900E1FDB0 /* alligator.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alligator.jpeg; path = ../../../../Users/leonardofelipedasilva/Downloads/alligator.jpeg; sourceTree = "<group>"; };
 		8759CB4C18BE6AA600E1FDB0 /* bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bear.jpg; path = ../../../../Users/leonardofelipedasilva/Downloads/bear.jpg; sourceTree = "<group>"; };
+		8759CB4E18C0F92F00E1FDB0 /* 10365.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10365.png; path = ../../../../Users/leonardofelipedasilva/Downloads/10365.png; sourceTree = "<group>"; };
+		8759CB5018C1052900E1FDB0 /* crab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crab.jpg; path = ../../../../Users/leonardofelipedasilva/Downloads/crab.jpg; sourceTree = "<group>"; };
+		8759CB5218C1056200E1FDB0 /* dolphin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dolphin.jpg; path = ../../../../Users/leonardofelipedasilva/Downloads/dolphin.jpg; sourceTree = "<group>"; };
+		8759CB5418C105A700E1FDB0 /* fox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fox.jpg; path = ../../../../Users/leonardofelipedasilva/Downloads/fox.jpg; sourceTree = "<group>"; };
+		8759CB5618C1060100E1FDB0 /* eagle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eagle.jpg; path = ../../../../Users/leonardofelipedasilva/Downloads/eagle.jpg; sourceTree = "<group>"; };
+		8759CB5818C106BA00E1FDB0 /* goat.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = goat.bmp; path = ../../../../Users/leonardofelipedasilva/Downloads/goat.bmp; sourceTree = "<group>"; };
+		8759CB5A18C1070A00E1FDB0 /* hyena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hyena.jpg; path = ../../../../Users/leonardofelipedasilva/Downloads/hyena.jpg; sourceTree = "<group>"; };
+		8759CB5C18C107CF00E1FDB0 /* jaguar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jaguar.jpg; path = ../../../../Users/leonardofelipedasilva/Downloads/jaguar.jpg; sourceTree = "<group>"; };
+		8759CB5E18C108B100E1FDB0 /* kangoroo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kangoroo.jpg; path = ../../../../Users/leonardofelipedasilva/Downloads/kangoroo.jpg; sourceTree = "<group>"; };
+		8759CB6018C108E900E1FDB0 /* iguana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iguana.jpg; path = ../../../../Users/leonardofelipedasilva/Downloads/iguana.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +162,16 @@
 		27156F5318B76AF50053A99C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8759CB6018C108E900E1FDB0 /* iguana.jpg */,
+				8759CB5E18C108B100E1FDB0 /* kangoroo.jpg */,
+				8759CB5C18C107CF00E1FDB0 /* jaguar.jpg */,
+				8759CB5A18C1070A00E1FDB0 /* hyena.jpg */,
+				8759CB5818C106BA00E1FDB0 /* goat.bmp */,
+				8759CB5618C1060100E1FDB0 /* eagle.jpg */,
+				8759CB5418C105A700E1FDB0 /* fox.jpg */,
+				8759CB5218C1056200E1FDB0 /* dolphin.jpg */,
+				8759CB5018C1052900E1FDB0 /* crab.jpg */,
+				8759CB4E18C0F92F00E1FDB0 /* 10365.png */,
 				8759CB4C18BE6AA600E1FDB0 /* bear.jpg */,
 				8759CB4A18BE68E900E1FDB0 /* alligator.jpeg */,
 				8759CB4618BD192600E1FDB0 /* abacaxi.jpg */,
@@ -250,12 +280,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8759CB5B18C1070A00E1FDB0 /* hyena.jpg in Resources */,
+				8759CB5918C106BA00E1FDB0 /* goat.bmp in Resources */,
 				8759CB4718BD192600E1FDB0 /* abacaxi.jpg in Resources */,
+				8759CB5518C105A700E1FDB0 /* fox.jpg in Resources */,
+				8759CB5F18C108B100E1FDB0 /* kangoroo.jpg in Resources */,
+				8759CB4F18C0F92F00E1FDB0 /* 10365.png in Resources */,
 				8759CB4D18BE6AA600E1FDB0 /* bear.jpg in Resources */,
 				27156F5718B76AF50053A99C /* InfoPlist.strings in Resources */,
 				8759CB4B18BE68E900E1FDB0 /* alligator.jpeg in Resources */,
 				8759CB4918BD355F00E1FDB0 /* LetrasViewController in Resources */,
+				8759CB5D18C107CF00E1FDB0 /* jaguar.jpg in Resources */,
+				8759CB5718C1060100E1FDB0 /* eagle.jpg in Resources */,
 				27156F5F18B76AF50053A99C /* Images.xcassets in Resources */,
+				8759CB5318C1056200E1FDB0 /* dolphin.jpg in Resources */,
+				8759CB6118C108E900E1FDB0 /* iguana.jpg in Resources */,
+				8759CB5118C1052900E1FDB0 /* crab.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

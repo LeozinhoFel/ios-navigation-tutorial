@@ -32,6 +32,7 @@ int indiceObj =0;
       //  indiceObj = [letras indexOfObject:wordDic];
         title = [[wordDic dicionarioCompleto]objectAtIndex:0];
         imagemAni = [[wordDic dicionarioCompleto]objectAtIndex:1];
+        nomeAni = [[wordDic dicionarioCompleto]objectAtIndex:2];
 
     }
     return self;
@@ -48,6 +49,8 @@ int indiceObj =0;
         wordDic = dic;
         title = [[wordDic dicionarioCompleto]objectAtIndex:0];
         imagemAni = [[wordDic dicionarioCompleto]objectAtIndex:1];
+        nomeAni = [[wordDic dicionarioCompleto]objectAtIndex:2];
+
 
         
         
@@ -61,6 +64,14 @@ int indiceObj =0;
 
 -(IBAction)play:(id)sender
 {
+    AVSpeechUtterance *utterance = [AVSpeechUtterance  speechUtteranceWithString:nomeAni];
+    
+    utterance.rate = AVSpeechUtteranceMinimumSpeechRate;
+    utterance.voice = [AVSpeechSynthesisVoice voiceWithLanguage:@"pt-BR"];
+    
+    AVSpeechSynthesizer *sintVoz = [[AVSpeechSynthesizer alloc]init];
+    
+    [sintVoz speakUtterance:utterance];
     
     
     
@@ -92,13 +103,18 @@ int indiceObj =0;
     
     UIImageView *imagem = [[UIImageView alloc]initWithImage:[UIImage imageNamed:imagemAni]];
     
-//    UIButton *botao = [UIButton
-//                       buttonWithType:UIButtonTypeSystem];
-//    [botao
-//     setTitle:@"Mostre uma palavra, uma figura e leia a palavra ao apertar um botao"
-//     forState:UIControlStateNormal];
-//    [botao sizeToFit];
+    UIButton *botao = [UIButton
+                       buttonWithType:UIButtonTypeSystem];
+    botao.frame = CGRectMake(40, 340, 40, 30);
+    
+    
+    [botao addTarget:self action:@selector(play:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [botao setImage:[UIImage imageNamed:@"10365.png"] forState:UIControlStateNormal];
+    
+    [botao sizeToFit];
     [self.view addSubview:imagem];
+    [self.view addSubview:botao];
     imagem.center = self.view.center;
     
     
@@ -122,15 +138,7 @@ int indiceObj =0;
 //    [proximo setTitle:[letras objectAtIndex:indiceObj]];
     [self.navigationController pushViewController:proximo
                                          animated:YES];
-    AVSpeechUtterance *utterance = [AVSpeechUtterance  speechUtteranceWithString:imagemAni];
-    
-    utterance.rate = AVSpeechUtteranceMinimumSpeechRate;
-    utterance.voice = [AVSpeechSynthesisVoice voiceWithLanguage:@"pt-BR"];
-    
-    AVSpeechSynthesizer *sintVoz = [[AVSpeechSynthesizer alloc]init];
-    
-    [sintVoz speakUtterance:utterance];
-    
+   
    
 }
 

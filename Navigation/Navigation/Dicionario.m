@@ -10,13 +10,13 @@
 
 @implementation Dicionario
 
--(id)initWithLetra:(NSString *)l andImagem:(NSString *)imag
+-(id)initWithLetra:(NSString *)l andImagem:(NSString *)imag andNome:(NSString *)nomeAni
 {
     self = [super init];
     if (self) {
-        dicionario = [[NSMutableArray alloc] initWithObjects:l, imag, nil];
+        dicionario = [[NSMutableArray alloc] initWithObjects:l, imag, nomeAni, nil];
         
-        NSLog(@"aqui: %@", dicionario);
+        
       
     }
     return self;

@@ -20,7 +20,7 @@
     Singleton *allWords;
     NSString *title;
     Dicionario *wordDic ;
-    
+    NSString *nomeAni;
     NSString *imagemAni;
 }
 

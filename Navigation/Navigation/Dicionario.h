@@ -16,7 +16,7 @@
 }
 
 //@property NSString *letra;
--(id)initWithLetra:(NSString *)letra andImagem:(NSString *)imag;
+-(id)initWithLetra:(NSString *)letra andImagem:(NSString *)imag andNome:(NSString *)nomeAni;
 -(NSMutableArray *)dicionarioCompleto;
 
 @end
